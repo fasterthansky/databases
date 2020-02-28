@@ -21,6 +21,7 @@ CREATE TABLE messages (
   /* Describe your table here.*/
   id INT NOT NULL AUTO_INCREMENT,
   message_text VARCHAR(100),
+  createdAt DATE,
   users_id int,
   rooms_id int,
   PRIMARY KEY (id),
